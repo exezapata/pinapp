@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS customer (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    lastname VARCHAR(50) NOT NULL,
+    age INT NOT NULL,
+    birth_date DATE
+);

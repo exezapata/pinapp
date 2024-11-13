@@ -1,0 +1,12 @@
+runtime: java21
+instance_class: F2
+entrypoint: java -jar target/ms-customers-1.0.0.jar
+
+env_variables:
+  DB_URL: "jdbc:mysql:///customers?cloudSqlInstance=pinapp-ms:us-central1:pinapp-customers&socketFactory=com.google.cloud.sql.mysql.SocketFactory"
+  DB_USERNAME: "root"
+  DB_PASSWORD: 'KivODfQlySua+z3"'
+  API_DOCS_URL: "https://pinapp-ms.ue.r.appspot.com/v3/api-docs"
+  LIFE_EXPECTANCY: "80"
+
+
