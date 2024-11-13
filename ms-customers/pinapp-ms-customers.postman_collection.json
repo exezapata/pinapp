@@ -25,18 +25,6 @@
 						"api",
 						"customer",
 						"kpi-customers"
-					],
-					"query": [
-						{
-							"key": "page",
-							"value": "0",
-							"disabled": true
-						},
-						{
-							"key": "size",
-							"value": "10",
-							"disabled": true
-						}
 					]
 				}
 			},
@@ -106,18 +94,6 @@
 						"api",
 						"customer",
 						"list-customers"
-					],
-					"query": [
-						{
-							"key": "page",
-							"value": "0",
-							"disabled": true
-						},
-						{
-							"key": "size",
-							"value": "10",
-							"disabled": true
-						}
 					]
 				}
 			},
